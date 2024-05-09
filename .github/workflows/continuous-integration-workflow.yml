@@ -20,10 +20,10 @@ jobs:
     - name: Test with the dotnet CLI
       run: dotnet test
 
-    - name: nmp install
-      run: nmp install
-      working-directory: ./DotetTemplate.web
+    - name: npm install
+      run: npm install
+      working-directory: DotnetTemplate.web
 
-    - name: nmp build
-      run: nmp build
-      working-directory: ./DotetTemplate.web
+    - name: npm build
+      run: npm build
+      working-directory: DotnetTemplate.web
