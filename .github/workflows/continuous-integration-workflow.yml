@@ -18,5 +18,8 @@ jobs:
       run: dotnet build  
     - name: Test with the dotnet CLI
       run: dotnet test
+
+    - name: nmp install
+      run: nmp install
     - name: nmp build
       run: nmp build
