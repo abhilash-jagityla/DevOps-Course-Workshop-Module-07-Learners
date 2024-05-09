@@ -22,8 +22,8 @@ jobs:
 
     - name: npm install
       run: npm install
-      working-directory: DotnetTemplate.web
+      working-directory: DotnetTemplate.Web
 
     - name: npm build
       run: npm build
-      working-directory: DotnetTemplate.web
+      working-directory: DotnetTemplate.Web
