@@ -16,3 +16,5 @@ jobs:
 
     - name: dotnet Build
       run: dotnet build  
+    - name: Test with the dotnet CLI
+      run: dotnet test
